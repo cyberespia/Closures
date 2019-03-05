@@ -40,3 +40,5 @@ sumatoria(valor: 8, sumaFunc: closure)
 sumatoria(valor: 8, sumaFunc: {return $0 + 5})
 
 sumatoria(valor: 8, sumaFunc: {$0 + 5})
+
+sumatoria(valor: 8){$0 + 5}
